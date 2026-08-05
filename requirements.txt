@@ -7,13 +7,13 @@ av==15.1.0
 certifi==2026.7.22
 cffi==2.0.0
 charset-normalizer==3.4.9
--e file:///home/qtcc/Desktop/rvl/eqnet-corl-rebuttal/CleanDiffuser
+-e ./CleanDiffuser
 click==8.1.8
 cloudpickle==3.1.2
 contourpy==1.2.1
 cycler==0.12.1
 cython==0.29.37
--e file:///home/qtcc/Desktop/rvl/eqnet-corl-rebuttal/D4RL
+-e ./D4RL
 dill==0.4.1
 dm-control==1.0.0
 dm-env==1.6
