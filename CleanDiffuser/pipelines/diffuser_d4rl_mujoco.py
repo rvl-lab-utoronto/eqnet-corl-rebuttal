@@ -142,6 +142,7 @@ def pipeline(args):
     # ---------------------- Inference ----------------------
     elif args.mode == "inference":
 
+        print(args.task,args.planner_net)
         agent.load(save_path + f"diffusion_ckpt_{args.ckpt}.pt")
         agent.classifier.load(save_path + f"classifier_ckpt_{args.ckpt}.pt")
 
