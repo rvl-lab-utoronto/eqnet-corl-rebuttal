@@ -18,7 +18,6 @@ $ conda install pytorch==2.2.2 torchvision==0.17.2 pytorch-cuda=12.1 -c pytorch 
 ```
 #### 3. Install CleanDiffuser from source
 ```bash
-$ git clone https://github.com/CleanDiffuserTeam/CleanDiffuser.git
 $ cd CleanDiffuser
 $ pip install -e .
 ```
@@ -47,18 +46,9 @@ $ cd robosuite
 $ pip install -e .
 ```
 
-If you need to reproduce Imitation Learning environments (`pusht`, `kitchen`, `robomimic`), you need to download the datasets additionally. We recommend downloading the corresponding compressed files from [Datasets](https://diffusion-policy.cs.columbia.edu/data/training/). We provide the default dataset path as `dev/`:
-```bash
-dev/
-.
-├── kitchen
-├── pusht
-├── robomimic
-```
-
 ## Reproducing Experiments
 
-To reproduce the experiments running Eq-Net and DiT on the MuJoCo environments, we provide scripts `run_all_dit.sh` and `run_all_eqnet.sh`. We don't include scripts for running BC and U-Net as they are already included in the CleanDiffuser paper [see table 1](https://github.com/CleanDiffuserTeam/CleanDiffuser/blob/main/assets/CleanDiffuser.pdf). 
+To reproduce the experiments running Eq-Net and DiT on the MuJoCo environments, we provide scripts `run_all_dit.sh` and `run_all_eqnet.sh`. We don't include scripts for running BC and U-Net as they are already included in the CleanDiffuser paper ([see table 1](https://github.com/CleanDiffuserTeam/CleanDiffuser/blob/main/assets/CleanDiffuser.pdf)). 
 
 ## Contact
 
